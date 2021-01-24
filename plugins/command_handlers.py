@@ -17,7 +17,7 @@ format_for_logging = "Request from {name} aka @{user}\n\nQuery : {link}\n\nSetti
 async def start(client, message):
     await client.send_message(
         chat_id=message.chat.id,
-        text="f"Hi {message.chat.first_name}!\n\n" "❤️ᴵ'ᴹ web ˡⁱⁿᵏ screenshot ᴮᴼᵀ. ᴶᵁˢᵀ ˢᴱᴺᴰ ᴹᴱ A ᴸᴵᴺᴷ❤️").. \n <b>The Link Must Include Https Or http prefix</b>",
+        text="Hi {message.chat.first_name} \n I can Give You Pictures From The Link That You Provide.. \n <b>The Link Must Include Https Or http prefix</b>",
         reply_to_message_id=message.message_id
     )
 
